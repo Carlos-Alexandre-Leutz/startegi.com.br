@@ -1,0 +1,1 @@
+# startegi.com.br
