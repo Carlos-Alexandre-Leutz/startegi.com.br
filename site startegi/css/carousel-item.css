@@ -1,0 +1,64 @@
+.carousel-item2 {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .carousel-item2 {
+        transition: none
+    }
+}
+
+.carousel-item2-next,
+.carousel-item2-prev,
+.carousel-item2.active {
+    display: block
+}
+
+.active.carousel-item2-right,
+.carousel-item2-next:not(.carousel-item-left) {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%)
+}
+
+.active.carousel-item2-left,
+.carousel-item2-prev:not(.carousel-item-right) {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%)
+}
+
+.carousel-fade .carousel-item2 {
+    opacity: 0;
+    transition-property: opacity;
+    -webkit-transform: none;
+    transform: none
+}
+
+.carousel-fade .carousel-item2-next.carousel-item2-left,
+.carousel-fade .carousel-item2-prev.carousel-item2-right,
+.carousel-fade .carousel-item2.active {
+    z-index: 1;
+    opacity: 1
+}
+
+.carousel-fade .active.carousel-item2-left,
+.carousel-fade .active.carousel-item2-right {
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 0s .6s
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .carousel-fade .active.carousel2-item-left,
+    .carousel-fade .active.carousel2-item-right {
+        transition: none
+    }
+}

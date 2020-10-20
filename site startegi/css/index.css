@@ -1,0 +1,642 @@
+.fundo {
+    background-image: url("../imagem/ceu.jpg");
+}
+
+@media screen and (max-width: 770px) {
+    .fundo {
+        background-image: url("../imagem/ceu770.jpg");
+    }
+}
+
+.hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.a:link {
+    color: white;
+}
+
+.a:visited {
+    color: white;
+}
+
+.a:hover {
+    color: #6CC28F;
+    text-decoration: none
+}
+
+.b:link {
+    color: white;
+}
+
+.b:visited {
+    color: white;
+}
+
+.b:hover {
+    color: #555;
+    text-decoration: none
+}
+
+.texJustifcado {
+    text-align: justify;
+}
+
+.videod {
+    width: 100%;
+    padding: 0;
+    margin-top: -25px;
+    height: 100%;
+}
+
+
+/* max-height: 550px;*/
+
+.planoMetodo {
+    margin-top: -20px;
+}
+
+.porcentagem {
+    width: 300px;
+    margin: auto;
+}
+
+.porcentagemM {
+    width: 575px;
+    margin: auto;
+}
+
+.percents {
+    font-size: 15px;
+    font-weight: 700;
+    color: #6CC28F;
+    margin-bottom: -5px;
+}
+
+.backgroundNossoTrabalho {
+    width: 100%;
+}
+
+.DivImgNossoTrabalho {
+    width: 300px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.imgNossoTrabalho {
+    width: 300px;
+}
+
+.wrapperCaroucel {
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.porcenttagemGrande {
+    display: none;
+}
+
+.porcenttagemPequena {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.caroucel1 {
+    height: 500px;
+    margin-bottom: 30px;
+}
+
+.celular {
+    background-image: url("../imagem/03.png");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px 600px;
+    margin: auto;
+    border: solid 1px transparent;
+}
+
+.conteudoCelular {
+    margin-top: 25px;
+}
+
+.carouselItem {
+    height: 500px;
+}
+
+.solucoesImg {
+    width: 100%;
+    max-width: 400px;
+    height: 650px;
+    /* transform: rotate(90deg);*/
+}
+
+.background {
+    background-color: #333
+}
+
+.botaoStories {
+    width: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 1px white;
+    border-radius: 5px;
+    margin: auto;
+    color: white;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.ml {
+    margin-left: 100px;
+}
+
+
+/**/
+
+.imgCarousel {
+    width: 95%;
+    height: 95%;
+    max-height: 550px;
+    min-height: 550px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.autura-carousel {
+    height: 550px;
+}
+
+.carouselItemAutura {
+    height: 700px;
+}
+
+
+/**/
+
+.solucoesCaroucel {
+    width: 100%;
+    max-width: 290px;
+    margin: auto;
+    height: 580px;
+    border-radius: 40px;
+    margin-top: -15px;
+}
+
+
+/**/
+
+.controles {
+    border: solid transparent;
+    margin-top: -70px;
+}
+
+ol.carousel-indicators {
+    margin: auto;
+    width: 280px;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+    width: 15px;
+    height: 15px;
+    margin: 10;
+    border-radius: 100px;
+    border: 0;
+    background: #808080;
+}
+
+ol.carousel-indicators li.active {
+    background: #6CC28F;
+}
+
+
+/**/
+
+.TituloSolucoes {
+    font-size: 20px;
+    font-weight: 800;
+    color: #6CC28F;
+}
+
+.imgCarStories {
+    width: 350px;
+    height: 605px;
+    margin-left: -30px;
+    margin-top: -10px;
+}
+
+.PSolucoes {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+}
+
+.carousel-control-prev {
+    background-color: #6CC28F;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-top: 200px;
+}
+
+.carousel-control-next {
+    background-color: #6CC28F;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-top: 200px;
+}
+
+.marginTopProgetos {
+    margin-top: 200px
+}
+
+.backgroundCafes {
+    width: 100%;
+    background-color: #333;
+}
+
+.projetosJobs {
+    width: 100px;
+    margin: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.cafes {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 0px;
+    width: 100%;
+    max-width: 100px;
+    margin-left: 15px;
+}
+
+.numero {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    width: 100%;
+    max-width: 100px;
+}
+
+.waths {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+.FontTitulo {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.FonteTexto {
+    color: #555;
+    font-weight: 600;
+}
+
+.m65 {
+    margin-top: 100px
+}
+
+.p65 {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.pb65 {
+    padding-bottom: 100px;
+}
+
+.footer {
+    background-color: #424340;
+    width: 100%;
+    padding-bottom: 1px;
+    color: white;
+}
+
+.textoFinal {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+verde {
+    color: #6CC28F;
+}
+
+.redesSociais {
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px 25px;
+    margin: 10px;
+}
+
+.todasAsRedesSociais {
+    width: 100%;
+    max-width: 150px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.face {
+    background-image: url("../imagem/faceebook.png");
+}
+
+.face:hover {
+    background-image: url("../imagem/facebook.png");
+}
+
+.insta {
+    background-image: url("../imagem/insta.jpg");
+}
+
+.insta:hover {
+    background-image: url("../imagem/instagram.png");
+}
+
+.in {
+    background-image: url("../imagem/linkedim.png");
+}
+
+.in:hover {
+    background-image: url("../imagem/linkedin.png");
+}
+
+.contato {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.wrapperCaroucel {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+#impTit {
+    min-width: 100px;
+    width: 100%;
+}
+
+#imprimirAqui {
+    min-width: 100px;
+    width: 100%;
+}
+
+#celularCarrocel {
+    min-width: 300px;
+    width: 100%;
+}
+
+.divImgCarTit {
+    width: 200px;
+    margin: auto;
+}
+
+.ImgCarTit {
+    height: 50px;
+    object-fit: contain;
+    margin-top: 280px;
+}
+
+.ImgCarTitSite {
+    height: 25px;
+    object-fit: contain;
+    margin-top: 280px;
+}
+
+.divimgCar {
+    width: 200px;
+    margin: auto;
+}
+
+.imgCar {
+    height: 200px;
+    object-fit: contain;
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+    .porcenttagemGrande {
+        display: block;
+    }
+    .porcenttagemPequena {
+        display: none;
+    }
+    /* */
+    .imgCarousel {
+        object-fit: contain;
+        width: 95%;
+        height: 95%;
+    }
+    .autura-carousel {
+        height: 550px;
+    }
+    .carouselItemAutura {
+        height: 700px;
+    }
+    /**/
+}
+
+@media screen and (max-width: 768px) {
+    /**/
+    .imgCarousel {
+        object-fit: contain;
+        max-height: 450px;
+        min-height: 450px;
+        margin: auto;
+    }
+    .autura-carousel {
+        height: 450px;
+    }
+    .carouselItemAutura {
+        height: 550px;
+    }
+    /**/
+}
+
+@media screen and (max-width: 575px) {
+    .porcenttagemGrande {
+        display: none;
+    }
+    .porcenttagemPequena {
+        display: block;
+    }
+    /*aqui*/
+    .imgCarousel {
+        object-fit: contain;
+        max-height: 300px;
+        min-height: 300px;
+        margin: auto;
+    }
+    .autura-carousel {
+        height: 300px;
+    }
+    .carouselItemAutura {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .solucoesImg {
+        width: 100%;
+        height: 100%;
+        /* transform: rotate(90deg);*/
+    }
+    /**/
+    .imgCarousel {
+        object-fit: contain;
+        max-height: 300px;
+        min-height: 300px;
+        margin: auto;
+    }
+    .autura-carousel {
+        height: 300px;
+    }
+    .carouselItemAutura {
+        height: 400px;
+    }
+    /**/
+}
+
+@media screen and (max-width: 425px) {
+    /**/
+    .imgCarousel {
+        object-fit: contain;
+        max-height: 260px;
+        min-height: 260px;
+        margin: auto;
+    }
+    .autura-carousel {
+        height: 260px;
+    }
+    .carouselItemAutura {
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .TituloSolucoes {
+        font-size: 18px;
+        font-weight: 800;
+        color: #6CC28F;
+    }
+    .PSolucoes {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    /**/
+    .imgCarousel {
+        object-fit: contain;
+        max-height: 250px;
+        min-height: 250px;
+        margin: auto;
+    }
+    .autura-carousel {
+        height: 250px;
+    }
+    .carouselItemAutura {
+        height: 350px;
+        /*gloria*/
+    }
+    /**/
+}
+
+@media screen and (max-width: 375px) {
+    .celular {
+        width: 100%;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 350px 600px;
+        margin: auto;
+        border: solid 1px transparent;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .TituloSolucoes {
+        font-size: 18px;
+        font-weight: 800;
+        color: #6CC28F;
+    }
+    .PSolucoes {
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 354px) {}
+
+@media screen and (max-width: 334px) {
+    .TituloSolucoes {
+        font-size: 18px;
+        font-weight: 800;
+        color: #6CC28F;
+    }
+    .PSolucoes {
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .carousel-item {
+        height: 600px;
+    }
+    /**/
+    /**/
+    .imgCarousel {
+        object-fit: contain;
+        max-height: 200px;
+        min-height: 200px;
+        margin: auto;
+    }
+    .autura-carousel {
+        height: 200px;
+    }
+    .carouselItemAutura {
+        height: 300px;
+    }
+    /**/
+    /**/
+}

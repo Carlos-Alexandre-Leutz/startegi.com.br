@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    teste
+    <div id="imprima"></div>
+
+    <script>
+        function GetBrowserInfo() {
+            var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+            var isFirefox = typeof InstallTrigger !== 'undefined'; // Firefox 1.0+
+            var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+            var isChrome = !!window.chrome && !isOpera; // Chrome 1+
+            var isIE = false || !!document.documentMode; // At least IE6
+
+
+            if (isOpera) {
+                console.log('opera');
+                document.getElementById('imprima').innerHTML = ('opera')
+            } else if (isFirefox) {
+                console.log('Firefox');
+                document.getElementById('imprima').innerHTML = ('firefox')
+            } else if (isChrome) {
+                console.log('Chrome');
+                document.getElementById('imprima').innerHTML = ('chrome')
+            } else if (isSafari) {
+                console.log('safari');
+                document.getElementById('imprima').innerHTML = ('safari')
+            } else if (isIE) {
+                console.log('explorer');
+                document.getElementById('imprima').innerHTML = ('explore')
+            } else {
+                console.log('nenhum');
+                document.getElementById('imprima').innerHTML = ('nenhum')
+            }
+        }
+        GetBrowserInfo();
+    </script>
+</body>
+
+</html>

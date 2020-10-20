@@ -1,0 +1,264 @@
+   .teste2 {
+       border-bottom: white solid 1px;
+   }
+   
+   .a:link {
+       color: #333;
+   }
+   
+   .a:visited {
+       color: #333;
+   }
+   
+   .a:hover {
+       color: #333;
+       text-decoration: none
+   }
+   
+   .waths {
+       width: 45px;
+       height: 45px;
+       position: fixed;
+       bottom: 25px;
+       right: 25px;
+       z-index: 1;
+   }
+   
+   .footer {
+       background-color: #424340;
+       width: 100%;
+       padding-bottom: 1px;
+       color: white;
+   }
+   
+   .contato {
+       width: 100%;
+       height: 180px;
+       margin: auto;
+       text-align: center;
+   }
+   
+   .FontTitulo {
+       font-size: 35px;
+       font-weight: 700;
+   }
+   
+   .FonteTexto {
+       color: #555;
+       font-weight: 600;
+   }
+   
+   .bacgrondSize {
+       background-color: #88c2a7;
+       width: 100%;
+       height: 250px;
+       margin-top: -50px;
+   }
+   
+   .bacgrondSize2 {
+       background-color: #424340;
+       width: 100%;
+       height: 400px;
+   }
+   
+   .ebookimg {
+       width: 100%;
+       object-fit: contain;
+   }
+   
+   .divEbook {
+       margin-top: 100px;
+   }
+   
+   .divGratis {
+       margin-top: 150px;
+   }
+   
+   .imgEbookGratis {
+       width: 70%;
+       object-fit: contain;
+   }
+   
+   .imgsaibaComo {
+       margin-left: 70px;
+       object-fit: contain;
+       width: 70%;
+   }
+   
+   .ConteinerbtnDownload {
+       margin-left: 70px;
+       object-fit: contain;
+       width: 70%;
+   }
+   
+   .ConteinerbtnDownload img {
+       width: 100%;
+   }
+   
+   .botaoDonload2 {
+       width: 100%;
+       padding-left: 15px;
+       padding-right: 15px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       border: solid 1px #9999;
+       background-color: #fff;
+       border-radius: 5px;
+       color: #333;
+       font-size: 15px;
+       font-weight: 600;
+       margin-top: 15px;
+   }
+   /*
+   footer {
+       position: absolute;
+       bottom: 1px;
+       z-index: 0;
+   }*/
+   
+   .redesSociais {
+       width: 25px;
+       height: 25px;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: 25px 25px;
+       margin: 10px;
+   }
+   
+   .todasAsRedesSociais {
+       width: 100%;
+       max-width: 150px;
+       margin: auto;
+       margin-top: 10px;
+       margin-bottom: 10px;
+   }
+   
+   .face {
+       background-image: url("../imagem/faceebook.png");
+   }
+   
+   .face:hover {
+       background-image: url("../imagem/facebook.png");
+   }
+   
+   .insta {
+       background-image: url("../imagem/insta.jpg");
+   }
+   
+   .insta:hover {
+       background-image: url("../imagem/instagram.png");
+   }
+   
+   .in {
+       background-image: url("../imagem/linkedim.png");
+   }
+   
+   .in:hover {
+       background-image: url("../imagem/linkedin.png");
+   }
+   
+   @media screen and (max-width: 990px) {
+       .ebookimg {
+           width: 100%;
+           object-fit: contain;
+       }
+       .imgEbookGratis {
+           object-fit: contain;
+       }
+       .bacgrondSize2 {
+           height: 350px;
+       }
+   }
+   
+   @media screen and (max-width: 770px) {
+       .ebookimg {
+           width: 100%;
+           object-fit: contain;
+       }
+       .imgEbookGratis {
+           object-fit: contain;
+       }
+       .bacgrondSize {
+           height: 220px;
+       }
+       .bacgrondSize2 {
+           height: 250px;
+       }
+   }
+   
+   @media screen and (max-width: 600px) {
+       .ebookimg {
+           width: 100%;
+           object-fit: contain;
+       }
+       .divGratis {
+           margin-top: 130px;
+       }
+       .bacgrondSize {
+           height: 200px;
+       }
+       .bacgrondSize2 {
+           height: 200px;
+       }
+       .imgsaibaComo {
+           margin-left: 50px;
+           width: 70%;
+       }
+       .ConteinerbtnDownload {
+           margin-left: 50px;
+           width: 70%;
+       }
+   }
+   
+   @media screen and (max-width: 425px) {
+       .ebookimg {
+           width: 100%;
+           object-fit: contain;
+       }
+       .divGratis {
+           margin-top: 130px;
+       }
+       .bacgrondSize {
+           height: 180px;
+       }
+       .bacgrondSize2 {
+           height: 150px;
+       }
+       .imgsaibaComo {
+           margin-left: 40px;
+           width: 70%;
+       }
+       .ConteinerbtnDownload {
+           margin-left: 40px;
+           width: 70%;
+       }
+   }
+   
+   @media screen and (max-width: 375px) {
+       .ebookimg {
+           margin-top: 20px;
+       }
+       .divGratis {
+           margin-top: 130px;
+       }
+       .bacgrondSize {
+           height: 170px;
+       }
+       .bacgrondSize2 {
+           height: 150px;
+       }
+       .imgsaibaComo {
+           margin-left: 40px;
+           width: 70%;
+       }
+       .ConteinerbtnDownload {
+           margin-left: 40px;
+           width: 70%;
+       }
+   }
+   
+   @media screen and (max-width: 320px) {
+       .divGratis {
+           margin-top: 120px;
+       }
+   }
