@@ -1,0 +1,17 @@
+.logoM {
+    width: 150px;
+    height: 60px;
+    object-fit: contain;
+     margin-top: 15px;
+    margin-right: 15px
+    
+  
+    
+}
+
+.logoD {
+    width: 150px;
+   
+}
+
+.teste2{background: #88c2a7 !important; z-index: 1;}.sidebar-wrapper{background: transparent; position: fixed; width: 100%; z-index: 1;}#check{display: none}.itemBarra{display: none;}@media screen and (max-width: 770px){.sidebar-wrapper{height: 80px;}.itensBarra{margin-top: 80px; position: absolute; width: 100%;}.itemBarra{display: block; color: white; background-color: #424340; padding-top: 15px; padding-bottom: 5px; width: 280px; margin-top: 15px; border-radius: 15px; margin-left: -10px; border: solid 1px; transition: all 0.2s linear; cursor: pointer;}.menu{background: white; border-radius: 50%; width: 45px; height: 45px; position: fixed; top: 15px; left: 25px; z-index: 2;}.hamburguer{position: relative; display: block; background: #000; width: 30px; height: 2px; top: 21px; left: 8px; transition: 0.5s ease-in-out;}.hamburguer:before, .hamburguer:after{background: #000; content: ''; display: block; width: 100%; height: 100%; position: absolute; transition: 0.5s ease-in-out;}.hamburguer:before{top: -10px;}.hamburguer:after{bottom: -10px;}input:checked~label .hamburguer{transform: rotate(45deg);}input:checked~label .hamburguer:before{transform: rotate(90deg); top: 0;}input:checked~label .hamburguer:after{transform: rotate(90deg); bottom: 0;}/** css menu latel mobile*/ .barra{background-color: #424340; height: 100%; width: 250px; position: fixed; transition: all .2s linear; left: -300px; top: 0; z-index: 1; border-right: 1px solid #fff;}/** animação menu latel mobile*/ #check:checked~.barra{transform: translateX(300px);}}
